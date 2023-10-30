@@ -1,0 +1,8 @@
+SELECT
+  *
+FROM ethereum.blocks
+WHERE
+date > DATE '2023-01-01'
+ORDER BY 
+    time
+LIMIT 100
